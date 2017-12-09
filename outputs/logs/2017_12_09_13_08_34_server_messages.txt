@@ -1,0 +1,127 @@
+2017/12/09 13:08:32.928  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/INST/target.txt'
+2017/12/09 13:08:32.953  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/INST/target.txt'
+2017/12/09 13:08:32.956  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/EXAMPLE/target.txt'
+2017/12/09 13:08:32.965  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/TEMPLATED/target.txt'
+2017/12/09 13:08:32.974  INFO: Processing target definition in file 'C:/COSMOS/COSMOS-Telemetry/config/targets/SYSTEM/target.txt'
+2017/12/09 13:08:32.980  INFO: COSMOS Version: 4.0.3
+2017/12/09 13:08:32.980  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2017/12/09 13:08:32.981  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/targets/INST/cmd_tlm_server.txt
+2017/12/09 13:08:32.984  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/targets/EXAMPLE/cmd_tlm_server.txt
+2017/12/09 13:08:32.992  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/COSMOS-Telemetry/config/targets/TEMPLATED/cmd_tlm_server.txt
+2017/12/09 13:08:33.008  INFO: Marshal load success: C:/COSMOS/COSMOS-Telemetry/outputs/tmp/marshal_221ab9c049ada4a9493ef0e05d55e859.bin
+2017/12/09 13:08:34.606  INFO: Creating thread for interface INST_INT
+2017/12/09 13:08:34.606  INFO: Creating thread for interface INST2_INT
+2017/12/09 13:08:34.606  INFO: Creating thread for interface ARDUINO_INT
+2017/12/09 13:08:34.606  INFO: Creating thread for interface SYSTEM_INT
+2017/12/09 13:08:34.606  INFO: Creating thread for router INST_ROUTER
+2017/12/09 13:08:34.606  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2017/12/09 13:08:34.607  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2017/12/09 13:08:34.607  INFO: Starting packet reading for INST_INT
+2017/12/09 13:08:34.607  INFO: Connecting to INST_INT...
+2017/12/09 13:08:34.607  INFO: Starting packet reading for INST2_INT
+2017/12/09 13:08:34.607  INFO: Connecting to INST2_INT...
+2017/12/09 13:08:34.608  INFO: Starting packet reading for ARDUINO_INT
+2017/12/09 13:08:34.608  INFO: Connecting to ARDUINO_INT...
+2017/12/09 13:08:34.608  INFO: Starting packet reading for SYSTEM_INT
+2017/12/09 13:08:34.608  INFO: Connecting to SYSTEM_INT...
+2017/12/09 13:08:34.608  INFO: SYSTEM_INT Connection Success
+2017/12/09 13:08:34.608  INFO: Starting packet reading for INST_ROUTER
+2017/12/09 13:08:34.608  INFO: Connecting to INST_ROUTER...
+2017/12/09 13:08:34.608  INFO: INST_ROUTER Connection Success
+2017/12/09 13:08:34.608  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2017/12/09 13:08:34.608  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2017/12/09 13:08:34.608  INFO: PREIDENTIFIED_ROUTER Connection Success
+2017/12/09 13:08:34.609  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2017/12/09 13:08:34.609  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2017/12/09 13:08:34.611  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2017/12/09 13:08:34.625  INFO: INST2_INT Connection Success
+2017/12/09 13:08:34.633  INFO: INST_INT Connection Success
+2017/12/09 13:08:34.633  ERROR: ARDUINO_INT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2017/12/09 13:08:34.633  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/win32/win32.rb:25:in `create_file'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/io/win32_serial_driver.rb:59:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/io/serial_driver.rb:45:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/io/serial_driver.rb:45:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/streams/serial_stream.rb:62:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/interfaces/serial_interface.rb:58:in `new'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/interfaces/serial_interface.rb:58:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:251:in `connect'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2017/12/09 13:08:34.638  INFO: INST2 HEALTH_STATUS TEMP1 = 54.888149999999996 is GREEN_HIGH
+2017/12/09 13:08:34.638  ERROR: INST2 HEALTH_STATUS TEMP2 = -Infinity is RED_LOW
+2017/12/09 13:08:34.638  ERROR: INST2 HEALTH_STATUS TEMP3 = 79.94390000000001 is RED_HIGH
+2017/12/09 13:08:34.638  INFO: INST2 HEALTH_STATUS TEMP4 = -0.057599999999993656 is GREEN
+2017/12/09 13:08:34.641  INFO: Log File Opened : C:/COSMOS/COSMOS-Telemetry/outputs/logs/2017_12_09_13_08_34_tlm.bin
+2017/12/09 13:08:34.642  INFO: INST HEALTH_STATUS TEMP1 = 54.888149999999996 is GREEN_HIGH
+2017/12/09 13:08:34.642  ERROR: INST HEALTH_STATUS TEMP2 = -Infinity is RED_LOW
+2017/12/09 13:08:34.642  ERROR: INST HEALTH_STATUS TEMP3 = 79.94390000000001 is RED_HIGH
+2017/12/09 13:08:34.642  INFO: INST HEALTH_STATUS TEMP4 = -0.057599999999993656 is GREEN
+2017/12/09 13:08:35.618  INFO: INST2 HEALTH_STATUS TEMP2 = -22.164702929687493 is GREEN
+2017/12/09 13:08:35.621  INFO: INST HEALTH_STATUS TEMP2 = -22.164702929687493 is GREEN
+2017/12/09 13:08:36.617  WARN: INST HEALTH_STATUS TEMP1 = 64.77625 is YELLOW_HIGH
+2017/12/09 13:08:36.618  WARN: INST2 HEALTH_STATUS TEMP1 = 64.77625 is YELLOW_HIGH
+2017/12/09 13:08:37.620  ERROR: INST_INT - Unknown 10 byte packet starting: 00000000000000000000
+2017/12/09 13:08:37.622  ERROR: INST2_INT - Unknown 10 byte packet starting: 00000000000000000000
+2017/12/09 13:08:38.137  INFO: Log File Closed : C:/COSMOS/COSMOS-Telemetry/outputs/logs/2017_12_09_13_08_34_tlm.bin
+2017/12/09 13:08:39.162  WARN: Failed to gracefully kill thread:
+  Caller Backtrace:
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/tools/cmd_tlm_server/background_tasks.rb:64:in `stop'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/tools/cmd_tlm_server/background_tasks.rb:51:in `block in stop_all'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/tools/cmd_tlm_server/background_tasks.rb:51:in `each'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/tools/cmd_tlm_server/background_tasks.rb:51:in `stop_all'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server.rb:244:in `stop'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:317:in `closeEvent'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/Qt/qtruby4.rb:479:in `method_missing'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/Qt/qtruby4.rb:479:in `exec'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/gui/qt_tool.rb:297:in `block in run'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/top_level.rb:713:in `set_working_dir'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/gui/qt_tool.rb:278:in `run'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:475:in `block in run'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/top_level.rb:528:in `catch_fatal_exception'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:448:in `run'
+  tools/CmdTlmServer:15:in `block in <main>'
+  C:/COSMOS/COSMOS-Telemetry/tools/tool_launch.rb:16:in `tool_launch'
+  tools/CmdTlmServer:13:in `<main>'
+  
+  Thread Backtrace:
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/tools/cmd_tlm_server/limits_groups_background_task.rb:84:in `sleep'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/tools/cmd_tlm_server/limits_groups_background_task.rb:84:in `call'
+  C:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.0.3/lib/cosmos/tools/cmd_tlm_server/background_tasks.rb:40:in `block in start'
+
+2017/12/09 13:08:39.172  INFO: Killing thread for router INST_ROUTER
+2017/12/09 13:08:39.172  INFO: Clean disconnect from INST_ROUTER (returned nil)
+2017/12/09 13:08:39.172  INFO: Connection Lost for INST_ROUTER
+2017/12/09 13:08:39.254  INFO: Stopped packet reading for INST_ROUTER
+2017/12/09 13:08:39.265  INFO: Disconnected from router INST_ROUTER
+2017/12/09 13:08:39.265  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2017/12/09 13:08:39.265  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2017/12/09 13:08:39.265  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2017/12/09 13:08:39.350  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2017/12/09 13:08:39.360  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2017/12/09 13:08:39.360  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2017/12/09 13:08:39.362  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2017/12/09 13:08:39.453  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2017/12/09 13:08:39.453  INFO: Killing thread for interface INST_INT
+2017/12/09 13:08:39.457  INFO: Clean disconnect from INST_INT (returned nil)
+2017/12/09 13:08:39.457  INFO: Connection Lost for INST_INT
+2017/12/09 13:08:39.457  INFO: Stopped packet reading for INST_INT
+2017/12/09 13:08:39.463  INFO: Disconnected from interface INST_INT
+2017/12/09 13:08:39.463  INFO: Killing thread for interface INST2_INT
+2017/12/09 13:08:39.467  INFO: Clean disconnect from INST2_INT (returned nil)
+2017/12/09 13:08:39.467  INFO: Connection Lost for INST2_INT
+2017/12/09 13:08:39.467  INFO: Stopped packet reading for INST2_INT
+2017/12/09 13:08:39.473  INFO: Disconnected from interface INST2_INT
+2017/12/09 13:08:39.473  INFO: Killing thread for interface ARDUINO_INT
+2017/12/09 13:08:39.482  INFO: Stopped packet reading for ARDUINO_INT
+2017/12/09 13:08:39.483  INFO: Disconnected from interface ARDUINO_INT
+2017/12/09 13:08:39.483  INFO: Disconnected from interface EXAMPLE_INT
+2017/12/09 13:08:39.483  INFO: Disconnected from interface TEMPLATED_INT
+2017/12/09 13:08:39.483  INFO: Killing thread for interface SYSTEM_INT
+2017/12/09 13:08:39.483  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2017/12/09 13:08:39.484  INFO: Connection Lost for SYSTEM_INT
+2017/12/09 13:08:39.484  INFO: Stopped packet reading for SYSTEM_INT
+2017/12/09 13:08:39.494  INFO: Disconnected from interface SYSTEM_INT

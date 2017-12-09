@@ -1,0 +1,125 @@
+2017/10/27 22:35:39.854  INFO: Processing target definition in file 'C:/COSMOS/Demo/config/targets/INST/target.txt'
+2017/10/27 22:35:39.858  INFO: Processing target definition in file 'C:/COSMOS/Demo/config/targets/INST/target.txt'
+2017/10/27 22:35:39.869  INFO: Processing target definition in file 'C:/COSMOS/Demo/config/targets/EXAMPLE/target.txt'
+2017/10/27 22:35:39.879  INFO: Processing target definition in file 'C:/COSMOS/Demo/config/targets/TEMPLATED/target.txt'
+2017/10/27 22:35:39.882  INFO: Processing target definition in file 'C:/COSMOS/Demo/config/targets/SYSTEM/target.txt'
+2017/10/27 22:35:39.886  INFO: COSMOS Version: 4.0.3
+2017/10/27 22:35:39.886  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Demo/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2017/10/27 22:35:39.892  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Demo/config/targets/INST/cmd_tlm_server.txt
+2017/10/27 22:35:39.897  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Demo/config/targets/EXAMPLE/cmd_tlm_server.txt
+2017/10/27 22:35:39.906  INFO: Processing CmdTlmServer configuration in file: C:/COSMOS/Demo/config/targets/TEMPLATED/cmd_tlm_server.txt
+2017/10/27 22:35:39.923  INFO: Marshal load success: C:/COSMOS/Demo/outputs/tmp/marshal_4ea3be54b33dcabd89249f09b7a96180.bin
+2017/10/27 22:35:41.830  INFO: Creating thread for interface INST_INT
+2017/10/27 22:35:41.830  INFO: Creating thread for interface INST2_INT
+2017/10/27 22:35:41.830  INFO: Creating thread for interface ARDUINO_INT
+2017/10/27 22:35:41.831  INFO: Creating thread for interface SYSTEM_INT
+2017/10/27 22:35:41.831  INFO: Creating thread for router INST_ROUTER
+2017/10/27 22:35:41.831  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2017/10/27 22:35:41.831  INFO: Starting packet reading for INST_INT
+2017/10/27 22:35:41.831  INFO: Connecting to INST_INT...
+2017/10/27 22:35:41.831  INFO: Starting packet reading for INST2_INT
+2017/10/27 22:35:41.831  INFO: Connecting to INST2_INT...
+2017/10/27 22:35:41.832  INFO: Starting packet reading for ARDUINO_INT
+2017/10/27 22:35:41.832  INFO: Connecting to ARDUINO_INT...
+2017/10/27 22:35:41.832  INFO: Starting packet reading for SYSTEM_INT
+2017/10/27 22:35:41.832  INFO: Connecting to SYSTEM_INT...
+2017/10/27 22:35:41.832  INFO: SYSTEM_INT Connection Success
+2017/10/27 22:35:41.832  INFO: Starting packet reading for INST_ROUTER
+2017/10/27 22:35:41.832  INFO: Connecting to INST_ROUTER...
+2017/10/27 22:35:41.832  INFO: INST_ROUTER Connection Success
+2017/10/27 22:35:41.832  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2017/10/27 22:35:41.833  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2017/10/27 22:35:41.833  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2017/10/27 22:35:41.835  INFO: PREIDENTIFIED_ROUTER Connection Success
+2017/10/27 22:35:41.835  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2017/10/27 22:35:41.835  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2017/10/27 22:35:41.835  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2017/10/27 22:35:41.836  INFO: INST_INT Connection Success
+2017/10/27 22:35:41.836  INFO: INST2_INT Connection Success
+2017/10/27 22:35:41.838  INFO: ARDUINO_INT Connection Success
+2017/10/27 22:35:41.861  INFO: INST2 HEALTH_STATUS TEMP1 = 54.888149999999996 is GREEN_HIGH
+2017/10/27 22:35:41.861  ERROR: INST2 HEALTH_STATUS TEMP2 = -Infinity is RED_LOW
+2017/10/27 22:35:41.861  ERROR: INST2 HEALTH_STATUS TEMP3 = 79.94390000000001 is RED_HIGH
+2017/10/27 22:35:41.861  INFO: INST2 HEALTH_STATUS TEMP4 = -0.057599999999993656 is GREEN
+2017/10/27 22:35:41.864  INFO: Log File Opened : C:/COSMOS/Demo/outputs/logs/2017_10_27_22_35_41_tlm.bin
+2017/10/27 22:35:41.865  INFO: INST HEALTH_STATUS TEMP1 = 54.888149999999996 is GREEN_HIGH
+2017/10/27 22:35:41.865  ERROR: INST HEALTH_STATUS TEMP2 = -Infinity is RED_LOW
+2017/10/27 22:35:41.865  ERROR: INST HEALTH_STATUS TEMP3 = 79.94390000000001 is RED_HIGH
+2017/10/27 22:35:41.865  INFO: INST HEALTH_STATUS TEMP4 = -0.057599999999993656 is GREEN
+2017/10/27 22:35:42.844  INFO: INST HEALTH_STATUS TEMP2 = -22.164702929687493 is GREEN
+2017/10/27 22:35:42.845  INFO: INST2 HEALTH_STATUS TEMP2 = -22.164702929687493 is GREEN
+2017/10/27 22:35:43.843  WARN: INST2 HEALTH_STATUS TEMP1 = 64.77625 is YELLOW_HIGH
+2017/10/27 22:35:43.846  WARN: INST HEALTH_STATUS TEMP1 = 64.77625 is YELLOW_HIGH
+2017/10/27 22:35:44.842  ERROR: INST_INT - Unknown 10 byte packet starting: 00000000000000000000
+2017/10/27 22:35:44.842  ERROR: INST2_INT - Unknown 10 byte packet starting: 00000000000000000000
+2017/10/27 22:35:46.088  INFO: User disconnecting interface INST_INT
+2017/10/27 22:35:46.088  INFO: Killing thread for interface INST_INT
+2017/10/27 22:35:46.091  INFO: Clean disconnect from INST_INT (returned nil)
+2017/10/27 22:35:46.091  INFO: Connection Lost for INST_INT
+2017/10/27 22:35:46.091  INFO: Stopped packet reading for INST_INT
+2017/10/27 22:35:46.099  INFO: Disconnected from interface INST_INT
+2017/10/27 22:35:46.503  INFO: User disconnecting interface INST2_INT
+2017/10/27 22:35:46.503  INFO: Killing thread for interface INST2_INT
+2017/10/27 22:35:46.511  INFO: Clean disconnect from INST2_INT (returned nil)
+2017/10/27 22:35:46.511  INFO: Connection Lost for INST2_INT
+2017/10/27 22:35:46.511  INFO: Stopped packet reading for INST2_INT
+2017/10/27 22:35:46.514  INFO: Disconnected from interface INST2_INT
+2017/10/27 22:35:47.337  INFO: Enabling Limits Group: INST2_TEMP2
+2017/10/27 22:35:47.337  INFO: Enabling Limits Group: INST2_GROUND
+2017/10/27 22:36:00.098  INFO: User disconnecting interface ARDUINO_INT
+2017/10/27 22:36:00.098  INFO: Killing thread for interface ARDUINO_INT
+2017/10/27 22:36:00.109  INFO: Clean disconnect from ARDUINO_INT (returned nil)
+2017/10/27 22:36:00.109  INFO: Connection Lost for ARDUINO_INT
+2017/10/27 22:36:00.109  INFO: Stopped packet reading for ARDUINO_INT
+2017/10/27 22:36:00.110  INFO: Disconnected from interface ARDUINO_INT
+2017/10/27 22:36:11.013  INFO: User connecting interface ARDUINO_INT
+2017/10/27 22:36:11.013  INFO: Creating thread for interface ARDUINO_INT
+2017/10/27 22:36:11.014  INFO: Starting packet reading for ARDUINO_INT
+2017/10/27 22:36:11.014  INFO: Connecting to ARDUINO_INT...
+2017/10/27 22:36:11.016  INFO: ARDUINO_INT Connection Success
+2017/10/27 22:36:11.361  ERROR: ARDUINO_INT - Unknown 159 byte packet starting: 000000000000000000000000000000000000000000000000000000000000000000000000
+2017/10/27 22:37:05.634  INFO: User disconnecting interface ARDUINO_INT
+2017/10/27 22:37:05.634  INFO: Killing thread for interface ARDUINO_INT
+2017/10/27 22:37:05.645  INFO: Clean disconnect from ARDUINO_INT (returned nil)
+2017/10/27 22:37:05.645  INFO: Connection Lost for ARDUINO_INT
+2017/10/27 22:37:05.645  INFO: Stopped packet reading for ARDUINO_INT
+2017/10/27 22:37:05.645  INFO: Disconnected from interface ARDUINO_INT
+2017/10/27 22:37:11.294  INFO: User connecting interface ARDUINO_INT
+2017/10/27 22:37:11.294  INFO: Creating thread for interface ARDUINO_INT
+2017/10/27 22:37:11.295  INFO: Starting packet reading for ARDUINO_INT
+2017/10/27 22:37:11.295  INFO: Connecting to ARDUINO_INT...
+2017/10/27 22:37:11.297  INFO: ARDUINO_INT Connection Success
+2017/10/27 22:37:11.701  ERROR: ARDUINO_INT - Unknown 58 byte packet starting: 000000000000000000000000000000000000000000000000000000000000000000000000
+2017/10/27 22:38:41.024  INFO: Tcpip server accepted connection from (127.0.0.1):62634
+2017/10/27 23:04:02.512  INFO: Tcpip server lost read connection to (127.0.0.1):62634
+2017/10/27 23:04:02.610  INFO: Tcpip server lost write connection to (127.0.0.1):62634
+2017/10/27 23:04:07.578  INFO: User disconnecting interface ARDUINO_INT
+2017/10/27 23:04:07.578  INFO: Killing thread for interface ARDUINO_INT
+2017/10/27 23:04:07.588  INFO: Clean disconnect from ARDUINO_INT (returned nil)
+2017/10/27 23:04:07.588  INFO: Connection Lost for ARDUINO_INT
+2017/10/27 23:04:07.588  INFO: Stopped packet reading for ARDUINO_INT
+2017/10/27 23:04:07.589  INFO: Disconnected from interface ARDUINO_INT
+2017/10/27 23:04:11.881  INFO: Log File Closed : C:/COSMOS/Demo/outputs/logs/2017_10_27_22_35_41_tlm.bin
+2017/10/27 23:04:11.913  INFO: Killing thread for router INST_ROUTER
+2017/10/27 23:04:11.913  INFO: Clean disconnect from INST_ROUTER (returned nil)
+2017/10/27 23:04:11.913  INFO: Connection Lost for INST_ROUTER
+2017/10/27 23:04:11.997  INFO: Stopped packet reading for INST_ROUTER
+2017/10/27 23:04:12.007  INFO: Disconnected from router INST_ROUTER
+2017/10/27 23:04:12.007  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2017/10/27 23:04:12.007  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2017/10/27 23:04:12.007  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2017/10/27 23:04:12.090  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2017/10/27 23:04:12.090  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2017/10/27 23:04:12.090  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2017/10/27 23:04:12.095  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2017/10/27 23:04:12.194  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2017/10/27 23:04:12.194  INFO: Disconnected from interface INST_INT
+2017/10/27 23:04:12.194  INFO: Disconnected from interface INST2_INT
+2017/10/27 23:04:12.194  INFO: Disconnected from interface ARDUINO_INT
+2017/10/27 23:04:12.194  INFO: Disconnected from interface EXAMPLE_INT
+2017/10/27 23:04:12.194  INFO: Disconnected from interface TEMPLATED_INT
+2017/10/27 23:04:12.194  INFO: Killing thread for interface SYSTEM_INT
+2017/10/27 23:04:12.194  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2017/10/27 23:04:12.194  INFO: Connection Lost for SYSTEM_INT
+2017/10/27 23:04:12.194  INFO: Stopped packet reading for SYSTEM_INT
+2017/10/27 23:04:12.204  INFO: Disconnected from interface SYSTEM_INT
