@@ -14,18 +14,18 @@ PACKET_LOG_WRITER DEFAULT packet_log_writer.rb nil true nil 2000000000 nil false
 # AUTO_INTERFACE_TARGETS # Use cmd_tlm_server.txt from all targets declared in system.txt
 
 
-INTERFACE_TARGET INST cmd_tlm_server.txt # Use cmd_tlm_server.txt in target package
+# INTERFACE_TARGET INST cmd_tlm_server.txt # Use cmd_tlm_server.txt in target package
 
-INTERFACE INST2_INT simulated_target_interface.rb sim_inst.rb
-  TARGET INST2
-  DONT_LOG
+# INTERFACE INST2_INT simulated_target_interface.rb sim_inst.rb
+#  TARGET INST2
+#  DONT_LOG
 
 INTERFACE ARDUINO_INT serial_interface.rb COM17 COM17 9600 NONE 1 10.0 nil TERMINATED 0x43505353 0x43505353
   TARGET ARDUINO
   
-INTERFACE_TARGET EXAMPLE cmd_tlm_server.txt # Use cmd_tlm_server.txt in target package
+# INTERFACE_TARGET EXAMPLE cmd_tlm_server.txt # Use cmd_tlm_server.txt in target package
 
-INTERFACE_TARGET TEMPLATED cmd_tlm_server.txt # Use cmd_tlm_server.txt in target package
+# INTERFACE_TARGET TEMPLATED cmd_tlm_server.txt # Use cmd_tlm_server.txt in target package
 
 INTERFACE SYSTEM_INT cmd_tlm_server_interface.rb
   TARGET SYSTEM
@@ -37,17 +37,15 @@ INTERFACE SYSTEM_INT cmd_tlm_server_interface.rb
   # RECONNECT_DELAY 15.0
   # LOG_RAW
 
-ROUTER INST_ROUTER tcpip_server_interface.rb 2055 2055 10.0 nil LENGTH 32 16 7
-  OPTION LISTEN_ADDRESS 127.0.0.1
-  ROUTE INST_INT
+# ROUTER INST_ROUTER tcpip_server_interface.rb 2055 2055 10.0 nil LENGTH 32 16 7
+#   OPTION LISTEN_ADDRESS 127.0.0.1
+#   ROUTE INST_INT
   # DONT_CONNECT
   # DONT_RECONNECT
   # DISABLE_DISCONNECT
   # RECONNECT_DELAY 15.0
   # LOG_RAW
 
-BACKGROUND_TASK example_background_task.rb
-  STOPPED
 BACKGROUND_TASK limits_groups.rb 5 # Initial delay to allow interfaces to connect
 
 COLLECT_METADATA
