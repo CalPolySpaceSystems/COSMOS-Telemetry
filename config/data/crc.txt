@@ -21,7 +21,9 @@ USER_MODIFIED
 "config/data/vswitchon.gif" 0xD747AC45
 "config/system/system.txt" 0x436506BA
 "config/targets/ARDUINO/cmd_tlm/arduino_cmds.txt" 0x14FFDB1D
-"config/targets/ARDUINO/cmd_tlm/arduino_tlm.txt" 0x12ED898A
+"config/targets/ARDUINO/cmd_tlm/arduino_tlm.txt" 0xEB0354DC
+"config/targets/ARDUINO/lib/arduino_dump_component.rb" 0x9561DE24
+"config/targets/ARDUINO/tools/data_viewer/data_viewer.txt" 0x13F4C528
 "config/targets/SYSTEM/cmd_tlm/limits_groups.txt" 0x1699D1E3
 "config/targets/SYSTEM/cmd_tlm/meta_tlm.txt" 0x1637F68F
 "config/targets/SYSTEM/cmd_tlm/override.txt" 0xC11D1C8E
@@ -29,7 +31,7 @@ USER_MODIFIED
 "config/targets/SYSTEM/cmd_tlm/system_tlm.txt" 0xC44F7A0C
 "config/targets/SYSTEM/cmd_tlm_server.txt" 0x8D42D962
 "config/targets/SYSTEM/lib/limits_groups.rb" 0x41DBC992
-"config/targets/SYSTEM/screens/status.txt" 0xDB93FFA7
+"config/targets/SYSTEM/screens/status.txt" 0x9DD71220
 "config/targets/SYSTEM/target.txt" 0x07E82776
 "config/targets/TEMPLATED/cmd_tlm/templated_cmds.txt" 0x36D65799
 "config/targets/TEMPLATED/cmd_tlm/templated_tlm.txt" 0x4E6360AA
@@ -76,7 +78,7 @@ USER_MODIFIED
 "config/tools/tlm_extractor/tlm_extractor4.txt" 0x068824C2
 "config/tools/tlm_extractor/_adcs_time.txt" 0x3DAD5094
 "config/tools/tlm_grapher/README.txt" 0x93B2C07E
-"config/tools/tlm_viewer/tlm_viewer.txt" 0x6E6DBC7A
+"config/tools/tlm_viewer/tlm_viewer.txt" 0x71549596
 "tools/CmdExtractor" 0x96E82AC3
 "tools/CmdExtractor.bat" 0x2B98E027
 "tools/CmdSender" 0x10346CF4

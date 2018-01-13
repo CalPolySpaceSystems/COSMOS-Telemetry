@@ -1,0 +1,52 @@
+2017/12/24 11:00:52.283  INFO: COSMOS Version: 4.1.1
+2017/12/24 11:00:52.288  INFO: Processing target definition in file 'D:/COSMOS/COSMOS-Telemetry/config/targets/SYSTEM/target.txt'
+2017/12/24 11:00:52.293  INFO: Processing CmdTlmServer configuration in file: D:/COSMOS/COSMOS-Telemetry/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2017/12/24 11:00:52.321  INFO: Marshal file does not exist: D:/COSMOS/COSMOS-Telemetry/outputs/tmp/marshal_6686e8787bc0788118460749aef5fb3e.bin
+2017/12/24 11:00:54.076  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2017/12/24 11:00:54.077  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2017/12/24 11:00:54.078  INFO: Creating thread for interface ARDUINO_INT
+2017/12/24 11:00:54.079  INFO: Creating thread for interface SYSTEM_INT
+2017/12/24 11:00:54.080  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2017/12/24 11:00:54.080  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2017/12/24 11:00:54.081  INFO: PREIDENTIFIED_ROUTER Connection Success
+2017/12/24 11:00:54.081  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2017/12/24 11:00:54.081  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2017/12/24 11:00:54.087  INFO: Starting packet reading for ARDUINO_INT
+2017/12/24 11:00:54.087  INFO: Connecting to ARDUINO_INT...
+2017/12/24 11:00:54.088  INFO: Starting packet reading for SYSTEM_INT
+2017/12/24 11:00:54.088  INFO: Connecting to SYSTEM_INT...
+2017/12/24 11:00:54.088  INFO: SYSTEM_INT Connection Success
+2017/12/24 11:00:54.103  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2017/12/24 11:00:54.129  ERROR: ARDUINO_INT Connection Failed: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+2017/12/24 11:00:54.129  ERROR: RuntimeError : Error during CreateFile: The system cannot find the file specified.
+
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/win32/win32.rb:25:in `create_file'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/win32_serial_driver.rb:59:in `initialize'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/serial_driver.rb:45:in `new'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/serial_driver.rb:45:in `initialize'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/streams/serial_stream.rb:62:in `new'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/streams/serial_stream.rb:62:in `initialize'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/serial_interface.rb:58:in `new'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/interfaces/serial_interface.rb:58:in `connect'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:251:in `connect'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2017/12/24 11:00:56.217  INFO: User disconnecting interface ARDUINO_INT
+2017/12/24 11:00:56.217  INFO: Killing thread for interface ARDUINO_INT
+2017/12/24 11:00:56.227  INFO: Stopped packet reading for ARDUINO_INT
+2017/12/24 11:00:56.227  INFO: Disconnected from interface ARDUINO_INT
+2017/12/24 11:01:32.668  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2017/12/24 11:01:32.668  INFO: Connection Lost for SYSTEM_INT
+2017/12/24 11:01:32.769  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2017/12/24 11:01:32.769  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2017/12/24 11:01:32.769  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2017/12/24 11:01:32.833  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2017/12/24 11:01:32.843  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2017/12/24 11:01:32.843  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2017/12/24 11:01:32.846  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2017/12/24 11:01:32.927  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2017/12/24 11:01:32.949  INFO: Disconnected from interface ARDUINO_INT
+2017/12/24 11:01:32.949  INFO: Killing thread for interface SYSTEM_INT
+2017/12/24 11:01:32.950  INFO: Stopped packet reading for SYSTEM_INT
+2017/12/24 11:01:32.959  INFO: Disconnected from interface SYSTEM_INT
