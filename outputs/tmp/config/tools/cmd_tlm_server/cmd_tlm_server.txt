@@ -8,20 +8,14 @@ TITLE 'COSMOS Command and Telemetry Server - Demo Configuration'
 # nil: Use the default log directory
 # false: Log synchronously - more efficient
 # config/data/meta_init.txt: Initialize SYSTEM META data from this file
+
 PACKET_LOG_WRITER DEFAULT packet_log_writer.rb nil true nil 2000000000 nil false
 # PACKET_LOG_WRITER SYSTEMLOG packet_log_writer.rb system
 
 # AUTO_INTERFACE_TARGETS # Use cmd_tlm_server.txt from all targets declared in system.txt
 
-
-# INTERFACE_TARGET INST cmd_tlm_server.txt # Use cmd_tlm_server.txt in target package
-
-# INTERFACE INST2_INT simulated_target_interface.rb sim_inst.rb
-#  TARGET INST2
-#  DONT_LOG
-
-INTERFACE ARDUINO_INT serial_interface.rb COM17 COM17 9600 NONE 1 10.0 nil TERMINATED 0x43505353 0x43505353
-  TARGET ARDUINO
+INTERFACE UPBOARD_INT serial_interface.rb COM17 COM17 9600 NONE 1 10.0 nil TERMINATED 0x43505353 0x43505353
+  TARGET UPBOARD
   
 # INTERFACE_TARGET EXAMPLE cmd_tlm_server.txt # Use cmd_tlm_server.txt in target package
 

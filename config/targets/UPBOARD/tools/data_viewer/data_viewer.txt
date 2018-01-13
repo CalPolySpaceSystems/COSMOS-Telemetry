@@ -1,0 +1,19 @@
+# CPSS data viewer 12/24/2017
+# Shows data dumps for each of the packets defined in upboard_tlm.txt
+
+COMPONENT "GPS Data Status" upboard_dump_component.rb
+  PACKET UPBOARD GPS
+  
+COMPONENT "IMU status" upboard_dump_component.rb
+  PACKET UPBOARD IMU
+  
+COMPONENT "Barometer status" upboard_dump_component.rb
+  PACKET UPBOARD BAROMETER
+  
+COMPONENT "Pressure Taps Status" upboard_dump_component.rb
+  PACKET UPBOARD PRESSURE_TAPS
+  
+COMPONENT "Real Time Clock Status" upboard_dump_component.rb
+  PACKET UPBOARD RTC
+  
+
