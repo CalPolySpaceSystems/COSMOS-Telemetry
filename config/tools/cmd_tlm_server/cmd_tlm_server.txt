@@ -12,11 +12,14 @@ TITLE 'COSMOS Command and Telemetry Server - Demo Configuration'
 PACKET_LOG_WRITER DEFAULT packet_log_writer.rb nil true nil 2000000000 nil false
 # PACKET_LOG_WRITER SYSTEMLOG packet_log_writer.rb system
 
+# Explicitly declare UPBOARD interface
+INTERFACE_TARGET UPBOARD cmd_tlm_server.txt # Use cmd_tlm_server.txt in targets\UPBOARD
+
+# INTERFACE UPBOARD_INT serial_interface.rb COM17 COM17 9600 NONE 1 10.0 nil TERMINATED 0x43505353 0x43505353
+#   TARGET UPBOARD
+
 # AUTO_INTERFACE_TARGETS # Use cmd_tlm_server.txt from all targets declared in system.txt
 
-INTERFACE UPBOARD_INT serial_interface.rb COM17 COM17 9600 NONE 1 10.0 nil TERMINATED 0x43505353 0x43505353
-  TARGET UPBOARD
-  
 # INTERFACE_TARGET EXAMPLE cmd_tlm_server.txt # Use cmd_tlm_server.txt in target package
 
 # INTERFACE_TARGET TEMPLATED cmd_tlm_server.txt # Use cmd_tlm_server.txt in target package

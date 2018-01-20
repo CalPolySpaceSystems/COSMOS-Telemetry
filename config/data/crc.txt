@@ -36,14 +36,13 @@ USER_MODIFIED
 "config/targets/TEMPLATED/lib/templated_interface.rb" 0x471A587C
 "config/targets/TEMPLATED/target.txt" 0x4A59ED64
 "config/targets/UPBOARD/cmd_tlm/upboard_cmds.txt" 0x44E45B29
-"config/targets/UPBOARD/cmd_tlm/upboard_cmds.txt~" 0x14FFDB1D
-"config/targets/UPBOARD/cmd_tlm/upboard_tlm.txt" 0x32ED16DC
-"config/targets/UPBOARD/cmd_tlm/upboard_tlm.txt~" 0xEB0354DC
+"config/targets/UPBOARD/cmd_tlm/upboard_tlm.txt" 0x9BF152F1
+"config/targets/UPBOARD/cmd_tlm_server.txt" 0xAB0D945C
 "config/targets/UPBOARD/lib/upboard_dump_component.rb" 0x75278207
+"config/targets/UPBOARD/screens/position.txt" 0xA13821A2
 "config/targets/UPBOARD/tools/data_viewer/data_viewer.txt" 0x7EA48587
 "config/targets/UPBOARD/tools/data_viewer/data_viewer.txt~" 0x13F4C528
-"config/tools/cmd_tlm_server/cmd_tlm_server.txt" 0xABCA2D2D
-"config/tools/cmd_tlm_server/cmd_tlm_server.txt~" 0x3C930B63
+"config/tools/cmd_tlm_server/cmd_tlm_server.txt" 0x7FE1D80E
 "config/tools/data_viewer/data_viewer.txt" 0xA5BC86F9
 "config/tools/example_application.css" 0x2987FE3F
 "config/tools/handbook_creator/default_toc.xsl" 0x4122A040
@@ -83,7 +82,7 @@ USER_MODIFIED
 "config/tools/tlm_extractor/tlm_extractor4.txt" 0x068824C2
 "config/tools/tlm_extractor/_adcs_time.txt" 0x3DAD5094
 "config/tools/tlm_grapher/README.txt" 0x93B2C07E
-"config/tools/tlm_viewer/tlm_viewer.txt" 0x71549596
+"config/tools/tlm_viewer/tlm_viewer.txt" 0xC75589B4
 "tools/CmdExtractor" 0x96E82AC3
 "tools/CmdExtractor.bat" 0x2B98E027
 "tools/CmdSender" 0x10346CF4
