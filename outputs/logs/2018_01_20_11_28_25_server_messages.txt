@@ -1,0 +1,39 @@
+2018/01/20 11:28:24.389  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/01/20 11:28:24.389  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/01/20 11:28:24.390  INFO: Creating thread for interface UPBOARD_INT
+2018/01/20 11:28:24.390  INFO: Creating thread for interface SYSTEM_INT
+2018/01/20 11:28:24.391  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/01/20 11:28:24.391  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/01/20 11:28:24.391  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/01/20 11:28:24.391  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/01/20 11:28:24.391  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/01/20 11:28:24.391  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2018/01/20 11:28:24.392  INFO: Starting packet reading for UPBOARD_INT
+2018/01/20 11:28:24.392  INFO: Connecting to UPBOARD_INT...
+2018/01/20 11:28:24.392  INFO: Starting packet reading for SYSTEM_INT
+2018/01/20 11:28:24.392  INFO: Connecting to SYSTEM_INT...
+2018/01/20 11:28:24.392  INFO: SYSTEM_INT Connection Success
+2018/01/20 11:28:24.432  INFO: UPBOARD_INT Connection Success
+2018/01/20 11:28:24.470  ERROR: UPBOARD_INT - Unknown 2 byte packet starting: 0003
+2018/01/20 11:28:24.470  INFO: Log File Opened : D:/COSMOS/COSMOS-Telemetry/outputs/logs/2018_01_20_11_28_24_tlm.bin
+2018/01/20 11:28:24.471  ERROR: UPBOARD_INT - Unknown 10 byte packet starting: 00000002000000010001
+2018/01/20 11:28:24.471  ERROR: UPBOARD PRESSURE_TAPS received with actual packet length of 12 but defined length of 13
+2018/01/20 11:35:42.349  INFO: Log File Closed : D:/COSMOS/COSMOS-Telemetry/outputs/logs/2018_01_20_11_28_24_tlm.bin
+2018/01/20 11:35:42.349  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2018/01/20 11:35:42.349  INFO: Connection Lost for SYSTEM_INT
+2018/01/20 11:35:42.449  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2018/01/20 11:35:42.449  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2018/01/20 11:35:42.449  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2018/01/20 11:35:42.480  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2018/01/20 11:35:42.480  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2018/01/20 11:35:42.480  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2018/01/20 11:35:42.484  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2018/01/20 11:35:42.534  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2018/01/20 11:35:42.566  INFO: Killing thread for interface UPBOARD_INT
+2018/01/20 11:35:42.571  INFO: Clean disconnect from UPBOARD_INT (returned nil)
+2018/01/20 11:35:42.571  INFO: Connection Lost for UPBOARD_INT
+2018/01/20 11:35:42.571  INFO: Stopped packet reading for UPBOARD_INT
+2018/01/20 11:35:42.577  INFO: Disconnected from interface UPBOARD_INT
+2018/01/20 11:35:42.577  INFO: Killing thread for interface SYSTEM_INT
+2018/01/20 11:35:42.587  INFO: Stopped packet reading for SYSTEM_INT
+2018/01/20 11:35:42.587  INFO: Disconnected from interface SYSTEM_INT

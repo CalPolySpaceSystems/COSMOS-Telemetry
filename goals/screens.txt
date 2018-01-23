@@ -1,4 +1,5 @@
 Available Data:
 ===============
 Real Time Clock
-Real
+GPS data
+

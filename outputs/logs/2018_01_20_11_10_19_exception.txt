@@ -1,0 +1,195 @@
+Exception:
+RuntimeError : Telemetry target 'UPBOARD' does not exist
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/api.rb:769:in `values_and_limits_states'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/cmd_tlm_server/api.rb:769:in `get_tlm_values'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/json_drb.rb:255:in `process_request'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/json_drb_rack.rb:59:in `handle_post'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/json_drb_rack.rb:41:in `call'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/puma-3.10.0/lib/puma/configuration.rb:225:in `call'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/puma-3.10.0/lib/puma/server.rb:605:in `handle_request'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/puma-3.10.0/lib/puma/server.rb:437:in `process_client'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/puma-3.10.0/lib/puma/server.rb:301:in `block in run'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/puma-3.10.0/lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/json_drb_object.rb:147:in `handle_response'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/json_drb_object.rb:93:in `block (2 levels) in method_missing'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/json_drb_object.rb:82:in `loop'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/json_drb_object.rb:82:in `block in method_missing'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/json_drb_object.rb:80:in `synchronize'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/json_drb_object.rb:80:in `method_missing'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/script/telemetry.rb:135:in `get_tlm_values'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/tlm_viewer/screen.rb:123:in `block in start_updates'
+
+Caller Backtrace:
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/top_level.rb:430:in `block (2 levels) in create_log_file'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/top_level.rb:427:in `synchronize'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/top_level.rb:427:in `block in create_log_file'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/top_level.rb:716:in `set_working_dir'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/top_level.rb:400:in `create_log_file'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/top_level.rb:457:in `write_exception_file'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/gui/dialogs/exception_dialog.rb:40:in `initialize'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/tlm_viewer/screen.rb:157:in `new'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/tlm_viewer/screen.rb:157:in `block (2 levels) in start_updates'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/Qt4.rb:104:in `block in execute_in_main_thread'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/Qt4.rb:57:in `callback_timeout'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/Qt/qtruby4.rb:479:in `qt_metacall'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/Qt/qtruby4.rb:479:in `method_missing'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/Qt/qtruby4.rb:479:in `exec'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/gui/qt_tool.rb:297:in `block in run'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/top_level.rb:716:in `set_working_dir'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/gui/qt_tool.rb:278:in `run'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/tlm_viewer/tlm_viewer.rb:593:in `block in run'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/top_level.rb:531:in `catch_fatal_exception'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/tlm_viewer/tlm_viewer.rb:543:in `run'
+tools/TlmViewer:15:in `block in <main>'
+D:/COSMOS/COSMOS-Telemetry/tools/tool_launch.rb:16:in `tool_launch'
+tools/TlmViewer:13:in `<main>'
+
+Ruby Version: ruby 2.4.2 (2017-09-14 patchlevel 198) [x64-mingw32]
+Rubygems Version: 2.6.13
+Cosmos Version: 4.1.1
+Cosmos::PATH: D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1
+Cosmos::USERPATH: D:/COSMOS/COSMOS-Telemetry
+
+Environment:
+RUBYOPT: -rbundler/setup
+RUBYLIB: D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/bundler-1.16.0/lib
+GEM_PATH: D:\COSMOS\Vendor\Ruby\lib\ruby\gems\2.4.0
+GEMRC: D:\COSMOS\Vendor\Ruby\lib\ruby\gems\etc\gemrc
+RI_DEVKIT: D:\COSMOS\Vendor\Devkit\
+GEM_HOME: D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0
+PATH: D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/../bin;D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/../lib/2.4;D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/../bin/2.4;D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-qt-4.8.6.4-x64-mingw32/qtlib/../qtbin;D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-qt-4.8.6.4-x64-mingw32/qtlib/../qtbin/plugins;D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/../bin;D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/bin;D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/../bin;D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/../lib/2.4;D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/../bin/2.4;D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-qt-4.8.6.4-x64-mingw32/qtlib/../qtbin;D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-qt-4.8.6.4-x64-mingw32/qtlib/../qtbin/plugins;D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/../bin;D:\COSMOS\Vendor\Ruby\bin;D:\COSMOS\Vendor\Devkit\bin;D:\COSMOS\Vendor\Devkit\mingw\bin;D:\COSMOS\Vendor\wkhtmltopdf;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\MATLAB\R2017b\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;D:\Program Files\Git\cmd;C:\Users\Brett\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Brett\AppData\Local\Programs\Python\Python36\;C:\Users\Brett\AppData\Local\Microsoft\WindowsApps
+
+Ruby Path:
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/uuidtools-2.1.5/lib
+  D:/COSMOS/COSMOS-Telemetry/lib
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/bundler-1.16.0/lib
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/extensions/x64-mingw32/2.4.0/cosmos-4.1.1
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/uuidtools-2.1.5/lib
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/snmp-1.2.0/lib
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/rubyzip-1.2.1/lib
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/rdoc-4.3.0/lib
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/rack-2.0.3/lib
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-qt-4.8.6.4-x64-mingw32/qtlib
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/puma-3.10.0/lib
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/extensions/x64-mingw32/2.4.0/puma-3.10.0
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/pry-doc-0.6.0/lib
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/yard-0.9.12/lib
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/pry-0.10.4/lib
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/slop-3.6.0/lib
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/method_source-0.8.2/lib
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/opengl-0.10.0-x64-mingw32/lib
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/nokogiri-1.8.1-x64-mingw32/lib
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/mini_portile2-2.3.0/lib
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/json-1.8.6/lib
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/extensions/x64-mingw32/2.4.0/json-1.8.6
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/httpclient-2.8.3/lib
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/coderay-1.1.2/lib
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/rake-12.0.0/lib
+  D:/COSMOS/Vendor/Ruby/lib/ruby/site_ruby/2.4.0
+  D:/COSMOS/Vendor/Ruby/lib/ruby/site_ruby/2.4.0/x64-msvcrt
+  D:/COSMOS/Vendor/Ruby/lib/ruby/site_ruby
+  D:/COSMOS/Vendor/Ruby/lib/ruby/vendor_ruby/2.4.0
+  D:/COSMOS/Vendor/Ruby/lib/ruby/vendor_ruby/2.4.0/x64-msvcrt
+  D:/COSMOS/Vendor/Ruby/lib/ruby/vendor_ruby
+  D:/COSMOS/Vendor/Ruby/lib/ruby/2.4.0
+  D:/COSMOS/Vendor/Ruby/lib/ruby/2.4.0/x64-mingw32
+  D:/COSMOS/COSMOS-Telemetry/config/targets/SYSTEM/lib
+  D:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/lib
+  D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/../lib/2.4
+
+Gems:
+did_you_mean 1.1.0 ruby
+io-console 0.4.6 ruby
+rake 12.0.0 ruby
+bundler 1.16.0 ruby
+coderay 1.1.2 ruby
+httpclient 2.8.3 ruby
+json 1.8.6 ruby
+mini_portile2 2.3.0 ruby
+nokogiri 1.8.1 x64-mingw32
+opengl 0.10.0 x64-mingw32
+method_source 0.8.2 ruby
+slop 3.6.0 ruby
+pry 0.10.4 ruby
+yard 0.9.12 ruby
+pry-doc 0.6.0 ruby
+puma 3.10.0 ruby
+qtbindings-qt 4.8.6.4 x64-mingw32
+qtbindings 4.8.6.4 x64-mingw32
+rack 2.0.3 ruby
+rdoc 4.3.0 ruby
+rubyzip 1.2.1 ruby
+snmp 1.2.0 ruby
+uuidtools 2.1.5 ruby
+cosmos 4.1.1 ruby
+
+All Threads Backtraces:
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/top_level.rb:493:in `backtrace'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/top_level.rb:493:in `block (2 levels) in write_exception_file'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/top_level.rb:492:in `each'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/top_level.rb:492:in `block in write_exception_file'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/top_level.rb:430:in `block (2 levels) in create_log_file'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/top_level.rb:427:in `synchronize'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/top_level.rb:427:in `block in create_log_file'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/top_level.rb:716:in `set_working_dir'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/top_level.rb:400:in `create_log_file'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/top_level.rb:457:in `write_exception_file'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/gui/dialogs/exception_dialog.rb:40:in `initialize'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/tlm_viewer/screen.rb:157:in `new'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/tlm_viewer/screen.rb:157:in `block (2 levels) in start_updates'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/Qt4.rb:104:in `block in execute_in_main_thread'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/Qt4.rb:57:in `callback_timeout'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/Qt/qtruby4.rb:479:in `qt_metacall'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/Qt/qtruby4.rb:479:in `method_missing'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/Qt/qtruby4.rb:479:in `exec'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/gui/qt_tool.rb:297:in `block in run'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/top_level.rb:716:in `set_working_dir'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/gui/qt_tool.rb:278:in `run'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/tlm_viewer/tlm_viewer.rb:593:in `block in run'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/top_level.rb:531:in `catch_fatal_exception'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/tlm_viewer/tlm_viewer.rb:543:in `run'
+tools/TlmViewer:15:in `block in <main>'
+D:/COSMOS/COSMOS-Telemetry/tools/tool_launch.rb:16:in `tool_launch'
+tools/TlmViewer:13:in `<main>'
+
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/core_ext/io.rb:48:in `select'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/core_ext/io.rb:48:in `fast_select'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/core_ext/io.rb:95:in `select'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/utilities/sleeper.rb:27:in `sleep'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/gui/qt_tool.rb:459:in `block (2 levels) in redirect_io'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/gui/qt_tool.rb:444:in `loop'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/gui/qt_tool.rb:444:in `block in redirect_io'
+
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/puma-3.10.0/lib/puma/single.rb:106:in `join'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/puma-3.10.0/lib/puma/single.rb:106:in `run'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/puma-3.10.0/lib/puma/launcher.rb:183:in `run'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/puma-3.10.0/lib/rack/handler/puma.rb:69:in `run'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/io/json_drb.rb:140:in `block in start_service'
+
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/core_ext/io.rb:48:in `select'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/core_ext/io.rb:48:in `fast_select'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/core_ext/io.rb:95:in `select'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/puma-3.10.0/lib/puma/reactor.rb:29:in `run_internal'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/puma-3.10.0/lib/puma/reactor.rb:154:in `block in run_in_thread'
+
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/puma-3.10.0/lib/puma/thread_pool.rb:244:in `sleep'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/puma-3.10.0/lib/puma/thread_pool.rb:244:in `block in start!'
+
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/puma-3.10.0/lib/puma/thread_pool.rb:215:in `sleep'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/puma-3.10.0/lib/puma/thread_pool.rb:215:in `block in start!'
+
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/core_ext/io.rb:48:in `select'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/core_ext/io.rb:48:in `fast_select'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/core_ext/io.rb:95:in `select'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/puma-3.10.0/lib/puma/server.rb:353:in `handle_servers'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/puma-3.10.0/lib/puma/server.rb:327:in `block in run'
+
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/Qt4.rb:107:in `sleep'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/qtbindings-4.8.6.4-x64-mingw32/lib/Qt4.rb:107:in `execute_in_main_thread'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/tlm_viewer/screen.rb:157:in `rescue in block in start_updates'
+D:/COSMOS/Vendor/Ruby/lib/ruby/gems/2.4.0/gems/cosmos-4.1.1/lib/cosmos/tools/tlm_viewer/screen.rb:114:in `block in start_updates'
+
+
+

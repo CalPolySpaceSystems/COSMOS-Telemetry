@@ -1,0 +1,43 @@
+2018/01/20 11:13:25.472  INFO: COSMOS Version: 4.1.1
+2018/01/20 11:13:25.489  INFO: Processing target definition in file 'D:/COSMOS/COSMOS-Telemetry/config/targets/SYSTEM/target.txt'
+2018/01/20 11:13:25.493  INFO: Processing target definition in file 'D:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/target.txt'
+2018/01/20 11:13:25.525  INFO: Processing CmdTlmServer configuration in file: D:/COSMOS/COSMOS-Telemetry/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2018/01/20 11:13:25.531  INFO: Processing CmdTlmServer configuration in file: D:/COSMOS/COSMOS-Telemetry/config/targets/UPBOARD/cmd_tlm_server.txt
+2018/01/20 11:13:25.541  INFO: Marshal load success: D:/COSMOS/COSMOS-Telemetry/outputs/tmp/marshal_3cfa24b269f5c95c27596b4eed758ff5.bin
+2018/01/20 11:13:27.555  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2018/01/20 11:13:27.556  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2018/01/20 11:13:27.557  INFO: Creating thread for interface UPBOARD_INT
+2018/01/20 11:13:27.558  INFO: Creating thread for interface SYSTEM_INT
+2018/01/20 11:13:27.560  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2018/01/20 11:13:27.560  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2018/01/20 11:13:27.562  INFO: PREIDENTIFIED_ROUTER Connection Success
+2018/01/20 11:13:27.592  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2018/01/20 11:13:27.602  INFO: Starting packet reading for UPBOARD_INT
+2018/01/20 11:13:27.612  INFO: Starting packet reading for SYSTEM_INT
+2018/01/20 11:13:27.622  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2018/01/20 11:13:27.634  INFO: Connecting to UPBOARD_INT...
+2018/01/20 11:13:27.643  INFO: Connecting to SYSTEM_INT...
+2018/01/20 11:13:27.657  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2018/01/20 11:13:27.662  INFO: SYSTEM_INT Connection Success
+2018/01/20 11:13:27.672  INFO: UPBOARD_INT Connection Success
+2018/01/20 11:13:27.676  ERROR: UPBOARD_INT - Unknown 198 byte packet starting: 000000000000000000000000000000000000000000000000000000000000000000000000
+2018/01/20 11:13:27.679  INFO: Log File Opened : D:/COSMOS/COSMOS-Telemetry/outputs/logs/2018_01_20_11_13_27_tlm.bin
+2018/01/20 11:14:18.847  INFO: Log File Closed : D:/COSMOS/COSMOS-Telemetry/outputs/logs/2018_01_20_11_13_27_tlm.bin
+2018/01/20 11:14:18.847  INFO: Clean disconnect from SYSTEM_INT (returned nil)
+2018/01/20 11:14:18.847  INFO: Connection Lost for SYSTEM_INT
+2018/01/20 11:14:18.947  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2018/01/20 11:14:18.947  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2018/01/20 11:14:18.948  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2018/01/20 11:14:19.043  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2018/01/20 11:14:19.054  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2018/01/20 11:14:19.054  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2018/01/20 11:14:19.060  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2018/01/20 11:14:19.118  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2018/01/20 11:14:19.139  INFO: Killing thread for interface UPBOARD_INT
+2018/01/20 11:14:19.145  INFO: Clean disconnect from UPBOARD_INT (returned nil)
+2018/01/20 11:14:19.145  INFO: Connection Lost for UPBOARD_INT
+2018/01/20 11:14:19.145  INFO: Stopped packet reading for UPBOARD_INT
+2018/01/20 11:14:19.151  INFO: Disconnected from interface UPBOARD_INT
+2018/01/20 11:14:19.151  INFO: Killing thread for interface SYSTEM_INT
+2018/01/20 11:14:19.154  INFO: Stopped packet reading for SYSTEM_INT
+2018/01/20 11:14:19.162  INFO: Disconnected from interface SYSTEM_INT
