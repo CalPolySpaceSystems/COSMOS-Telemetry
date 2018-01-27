@@ -36,12 +36,12 @@ USER_MODIFIED
 "config/targets/TEMPLATED/lib/templated_interface.rb" 0x471A587C
 "config/targets/TEMPLATED/target.txt" 0x4A59ED64
 "config/targets/UPBOARD/cmd_tlm/upboard_cmds.txt" 0x44E45B29
-"config/targets/UPBOARD/cmd_tlm/upboard_tlm.txt" 0x649B6477
+"config/targets/UPBOARD/cmd_tlm/upboard_tlm.txt" 0xD207851D
 "config/targets/UPBOARD/cmd_tlm_server.txt" 0xD69E3358
 "config/targets/UPBOARD/lib/pressure_taps_conversion.rb" 0x2A64394C
 "config/targets/UPBOARD/lib/upboard_dump_component.rb" 0x75278207
 "config/targets/UPBOARD/screens/position.txt" 0xBD2F730B
-"config/targets/UPBOARD/screens/pressure_board.txt" 0xDA48898C
+"config/targets/UPBOARD/screens/pressure_board.txt" 0xCECFAA5C
 "config/targets/UPBOARD/target.txt" 0x63849AF7
 "config/targets/UPBOARD/tools/data_viewer/data_viewer.txt" 0x7EA48587
 "config/targets/UPBOARD/tools/data_viewer/data_viewer.txt~" 0x13F4C528
