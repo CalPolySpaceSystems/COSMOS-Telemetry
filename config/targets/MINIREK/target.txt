@@ -1,0 +1,8 @@
+# Requires for conversion methods
+# REQUIRE pressure_taps_conversion.rb
+# REQUIRE accel_conversion.rb
+# REQUIRE gyro_conversion.rb
+# REQUIRE mag_conversion.rb
+# REQUIRE temp_conversion.rb
+# Requires for data dump methods
+# REQUIRE minirek_dump_component.rb

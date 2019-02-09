@@ -1,5 +1,0 @@
-# Requires for conversion methods
-REQUIRE pressure_taps_conversion.rb
-
-# Requires for data dump methods
-# REQUIRE upboard_dump_component.rb
