@@ -1,5 +1,4 @@
-# Implements a conversion factor based on the MPXH6400A pressure sensor spec
-# The conversion assumes in input voltage of 5.0V and outputs in kPa
+# Implements a conversion factor for magnatometer data
 
 require 'cosmos/conversions/conversion'
 

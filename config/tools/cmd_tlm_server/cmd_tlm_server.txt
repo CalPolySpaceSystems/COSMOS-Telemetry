@@ -13,7 +13,7 @@ PACKET_LOG_WRITER DEFAULT packet_log_writer.rb nil true nil 2000000000 nil false
 # PACKET_LOG_WRITER SYSTEMLOG packet_log_writer.rb system
 
 # Explicitly declare MINIREK interface
-INTERFACE_TARGET MINIREK cmd_tlm_server.txt # Use cmd_tlm_server.txt in targets\MINIREK
+INTERFACE_TARGET CUBESTACK cmd_tlm_server.txt # Use cmd_tlm_server.txt in targets\C
 
 # INTERFACE UPBOARD_INT serial_interface.rb COM17 COM17 9600 NONE 1 10.0 nil TERMINATED 0x43505353 0x43505353
 #   TARGET UPBOARD
@@ -24,9 +24,9 @@ INTERFACE_TARGET MINIREK cmd_tlm_server.txt # Use cmd_tlm_server.txt in targets\
 
 # INTERFACE_TARGET TEMPLATED cmd_tlm_server.txt # Use cmd_tlm_server.txt in target package
 
-INTERFACE SYSTEM_INT cmd_tlm_server_interface.rb
-  TARGET SYSTEM
-  DISABLE_DISCONNECT
+# INTERFACE SYSTEM_INT cmd_tlm_server_interface.rb
+  # TARGET SYSTEM
+  # DISABLE_DISCONNECT
   # LOG SYSTEMLOG
   # DONT_LOG
   # DONT_CONNECT
@@ -45,4 +45,4 @@ INTERFACE SYSTEM_INT cmd_tlm_server_interface.rb
 
 BACKGROUND_TASK limits_groups.rb 5 # Initial delay to allow interfaces to connect
 
-COLLECT_METADATA
+# COLLECT_METADATA
