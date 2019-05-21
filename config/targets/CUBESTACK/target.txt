@@ -1,9 +1,10 @@
 # Requires for conversion methods
 
-# REQUIRE pressure_taps_conversion.rb
-REQUIRE accel_conversion.rb
-REQUIRE gyro_conversion.rb
-# REQUIRE mag_conversion.rb
-# REQUIRE temp_conversion.rb
-# Requires for data dump methods
-# REQUIRE minirek_dump_component.rb            
+REQUIRE accel_convert_x.rb
+REQUIRE accel_convert_y.rb
+REQUIRE accel_convert_z.rb
+REQUIRE gyro_convert_x.rb
+REQUIRE gyro_convert_y.rb
+REQUIRE gyro_convert_z.rb
+REQUIRE mag_convert.rb 
+REQUIRE pressure_taps_convert.rb        

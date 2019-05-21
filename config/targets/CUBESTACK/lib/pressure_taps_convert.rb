@@ -4,7 +4,7 @@
 require 'cosmos/conversions/conversion'
 
 module Cosmos
-  class PressureTapsConversion < Conversion
+  class PressureTapsConvert < Conversion
     def call(value, packet, buffer)
 		  return (((value / 5.0) + 0.00842) / 0.002421)	
     end
