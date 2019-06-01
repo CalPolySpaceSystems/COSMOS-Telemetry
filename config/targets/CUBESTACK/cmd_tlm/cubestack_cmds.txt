@@ -1,13 +1,10 @@
 COMMAND CUBESTACK MODE BIG_ENDIAN "Mode"
   APPEND_ID_PARAMETER ID 8 UINT 0xA5 0xA5 0xA5 "Set Mode ID"
   APPEND_PARAMETER CODE_CS 16 UINT 0x0000 0xFFFF 0x108C "Set Mode Command w/ CRC8 Checksum" BIG_ENDIAN
-    STATE "Ground" 0x108C
-    STATE "Launch" 0x11D2 HAZARDOUS "Warning: Data Recording will begin."
-    STATE "Test" 0x1230
+    STATE "Ground" 0x108C HAZARDOUS "Data Recording will cease."
+    STATE "Launch" 0x11D2 HAZARDOUS "Data Recording will begin."
 
-COMMAND CUBESTACK FLASH LITTLE_ENDIAN "Flash Setting" 
+COMMAND CUBESTACK FLASH BIG_ENDIAN "Flash Setting" 
   APPEND_ID_PARAMETER ID 8 UINT 0xB4 0xB4 0xB4 "Flash ID"
   APPEND_PARAMETER CODE_CS 16 UINT 0x0000 0xFFFF 0x0000 "Flash Command w/ CRC8 Checksum" 
-    STATE "Erase" 0x10e8 HAZARDOUS "Warning: Flash data will be erased. Are you sure?"
-    STATE "Dump" 0x11b6 HAZARDOUS "Warning: Flash data will be dumped over radio. Are you sure?"
-    STATE "Cancel" 0x1245    
+    STATE "Erase" 0x2144 HAZARDOUS "Flash data will be erased. Are you sure?"
